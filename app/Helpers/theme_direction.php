@@ -1,48 +1,26 @@
 <?php
-/**
- * function to check app()->getLocale() and return the correct direction class
- * if app()->getLocale() == 'ar' return <html direction="rtl" dir="rtl" style="direction: rtl"> 
- */
 function directionCheck() {
-    $direction = '<html direction="ltr" dir="ltr" style="direction: ltr">';
-    if (app()->getLocale() == 'ar') {
-        $direction = '<html direction="rtl" dir="rtl" style="direction: rtl">';
-    }
-    echo $direction;
+    $ltr_direction = '<html direction="ltr" dir="ltr" style="direction: ltr">';
+    $rtl_direction = '<html direction="rtl" dir="rtl" style="direction: rtl">';
+    echo app()->getLocale() == 'ar' ? $rtl_direction : $ltr_direction;
 }
 
-function bottomStartDirectionClass()
-{
+function bottomStartDirectionClass() {
     $class = 'bottom-start';
-    if (app()->getLocale() == 'ar') {
-        $class = 'bottom-end';
-    }
-    return $class;
+    return app()->getLocale() == 'ar' ? 'bottom-end' : $class;
 }
 
-function bottomEndDirectionClass()
-{
+function bottomEndDirectionClass() {
     $class = 'bottom-end';
-    if (app()->getLocale() == 'ar') {
-        $class = 'bottom-start';
-    }
-    return $class;
+    return app()->getLocale() == 'ar' ? 'bottom-start' : $class;
 }
 
-function rightStartDirectionClass()
-{
+function rightStartDirectionClass() {
     $class = 'right-start';
-    if (app()->getLocale() == 'ar') {
-        $class = 'left-start';
-    }
-    return $class;
+    return app()->getLocale() == 'ar' ? 'left-start' : $class;
 }
 
-function leftStartDirectionClass()
-{
+function leftStartDirectionClass() {
     $class = 'left-start';
-    if (app()->getLocale() == 'ar') {
-        $class = 'right-start';
-    }
-    return $class;
+    return app()->getLocale() == 'ar' ? 'right-start' : $class;
 }

@@ -1,4 +1,4 @@
-@include('dashboard.common.includes.drawers._activities')
+
 @include('dashboard.common.includes.drawers._chat')
 <!--begin::Scrolltop-->
 <div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
@@ -30,6 +30,7 @@
 <script src="{{ asset("assets/dashboard/js/custom/modals/upgrade-plan.js") }}"></script>
 <!--end::Page Custom Javascript-->
 <!--end::Javascript-->
+@yield('js')
 </body>
 <!--end::Body-->
 

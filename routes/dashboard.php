@@ -14,17 +14,10 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/test', function () {
-    return view('dashboard.layouts.master');
-});
-
-
-
-require __DIR__.'/auth.php';Route::group(
-[
-    'prefix' => LaravelLocalization::setLocale(),
-	'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
-], function(){
+Route::group([
+        'prefix' => LaravelLocalization::setLocale(),
+	    'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function(){
     Route::prefix('admin')->as('admin.')->group(function () {
         Route::get('dashboard', [Dashboard\DashboardController::class, 'index'])->name('dashboard');
     });

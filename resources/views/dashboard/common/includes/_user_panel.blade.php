@@ -2,7 +2,7 @@
 <div class="d-flex align-items-center me-n3 ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
     <!--begin::Menu wrapper-->
     <div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px" data-kt-menu-trigger="click"
-        data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+        data-kt-menu-attach="parent" data-kt-menu-placement="{{bottomEndDirectionClass()}}">
         <img class="h-30px w-30px rounded" src="{{ asset('assets/dashboard/media/avatars/150-25.jpg') }}" alt="" />
     </div>
     <!--begin::Menu-->
@@ -46,7 +46,7 @@
         </div>
         <!--end::Menu item-->
         <!--begin::Menu item-->
-        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
+        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="{{leftStartDirectionClass()}}">
             <a href="#" class="menu-link px-5">
                 <span class="menu-title">My Subscription</span>
                 <span class="menu-arrow"></span>
@@ -104,7 +104,7 @@
         <div class="separator my-2"></div>
         <!--end::Menu separator-->
         <!--begin::Menu item-->
-        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
+        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="{{leftStartDirectionClass()}}">
             <a href="#" class="menu-link px-5">
                 <span class="menu-title position-relative">Language
                     <span

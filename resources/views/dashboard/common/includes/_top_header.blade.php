@@ -42,7 +42,7 @@
                     <!--begin::Menu-->
                     <div class="menu menu-lg-rounded menu-column menu-lg-row menu-state-bg menu-title-gray-700 menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-400 fw-bold my-5 my-lg-0 align-items-stretch"
                         id="#kt_header_menu" data-kt-menu="true">
-                        <div data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start"
+                        <div data-kt-menu-trigger="click" data-kt-menu-placement="{{bottomStartDirectionClass()}}"
                             class="menu-item here show menu-lg-down-accordion me-lg-1">
                             <a class="menu-link py-3" href="../../demo2/dist/index.html">
                                 <span class="menu-title">Dashboard</span>
@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start"
+                        <div data-kt-menu-trigger="click" data-kt-menu-placement="{{bottomStartDirectionClass()}}"
                             class="menu-item menu-lg-down-accordion me-lg-1">
                             <span class="menu-link py-3">
                                 <span class="menu-title">Crafted</span>
@@ -124,7 +124,7 @@
                             <div
                                 class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-rounded-0 py-lg-4 w-lg-225px">
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm007.svg-->
@@ -150,7 +150,7 @@
                                     <div
                                         class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -218,7 +218,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -304,7 +304,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -336,7 +336,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -368,7 +368,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -400,7 +400,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -468,7 +468,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -500,7 +500,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -534,7 +534,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/communication/com013.svg-->
@@ -614,7 +614,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/technology/teh004.svg-->
@@ -637,7 +637,7 @@
                                     <div
                                         class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -696,7 +696,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -755,7 +755,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -814,7 +814,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -909,7 +909,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -965,7 +965,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/art/art009.svg-->
@@ -988,7 +988,7 @@
                                     <div
                                         class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1038,7 +1038,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1088,7 +1088,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1147,7 +1147,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1181,7 +1181,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen022.svg-->
@@ -1261,7 +1261,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start"
+                        <div data-kt-menu-trigger="click" data-kt-menu-placement="{{bottomStartDirectionClass()}}"
                             class="menu-item menu-lg-down-accordion me-lg-1">
                             <span class="menu-link py-3">
                                 <span class="menu-title">Apps</span>
@@ -1270,7 +1270,7 @@
                             <div
                                 class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-rounded-0 py-lg-4 w-lg-225px">
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen051.svg-->
@@ -1293,7 +1293,7 @@
                                     <div
                                         class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1325,7 +1325,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1368,7 +1368,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/finance/fin002.svg-->
@@ -1389,7 +1389,7 @@
                                     <div
                                         class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1431,7 +1431,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
@@ -1463,7 +1463,7 @@
                                             </a>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1495,7 +1495,7 @@
                                             </div>
                                         </div>
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                            data-kt-menu-placement="right-start"
+                                            data-kt-menu-placement="{{rightStartDirectionClass()}}"
                                             class="menu-item menu-lg-down-accordion">
                                             <span class="menu-link py-3">
                                                 <span class="menu-bullet">
@@ -1556,7 +1556,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/finance/fin006.svg-->
@@ -1606,7 +1606,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
@@ -1670,7 +1670,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
@@ -1718,7 +1718,7 @@
                                     </div>
                                 </div>
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
-                                    data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+                                    data-kt-menu-placement="{{rightStartDirectionClass()}}" class="menu-item menu-lg-down-accordion">
                                     <span class="menu-link py-3">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/files/fil025.svg-->
@@ -1781,7 +1781,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start"
+                        <div data-kt-menu-trigger="click" data-kt-menu-placement="{{bottomStartDirectionClass()}}"
                             class="menu-item menu-lg-down-accordion me-lg-1">
                             <span class="menu-link py-3">
                                 <span class="menu-title">Resources</span>
@@ -1881,7 +1881,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start"
+                        <div data-kt-menu-trigger="click" data-kt-menu-placement="{{bottomStartDirectionClass()}}"
                             class="menu-item menu-lg-down-accordion me-lg-1">
                             <span class="menu-link py-3">
                                 <span class="menu-title">Mega Menu</span>
@@ -2049,7 +2049,7 @@
                         <div id="kt_header_search" class="d-flex align-items-stretch" data-kt-search-keypress="true"
                             data-kt-search-min-length="2" data-kt-search-enter="enter" data-kt-search-layout="menu"
                             data-kt-menu-trigger="auto" data-kt-menu-overflow="false" data-kt-menu-permanent="true"
-                            data-kt-menu-placement="bottom-end">
+                            data-kt-menu-placement="{{bottomEndDirectionClass()}}">
                             <!--begin::Search toggle-->
                             <div class="d-flex align-items-center" data-kt-search-element="toggle"
                                 id="kt_header_search_toggle">
@@ -2968,7 +2968,7 @@
                         <!--begin::Menu- wrapper-->
                         <div class="btn btn-icon btn-active-light-primary position-relative w-30px h-30px w-md-40px h-md-40px"
                             data-kt-menu-trigger="click" data-kt-menu-attach="parent"
-                            data-kt-menu-placement="bottom-end">
+                            data-kt-menu-placement="{{bottomEndDirectionClass()}}">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen022.svg-->
                             <span class="svg-icon svg-icon-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -3625,7 +3625,7 @@
                     <div class="d-flex align-items-center ms-1 ms-lg-3">
                         <!--begin::Menu wrapper-->
                         <div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"
-                            data-kt-menu-trigger="click" data-kt-menu-attach="parent"data-kt-menu-placement="bottom-end">
+                            data-kt-menu-trigger="click" data-kt-menu-attach="parent"data-kt-menu-placement="{{bottomEndDirectionClass()}}">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
                             <span class="svg-icon svg-icon-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

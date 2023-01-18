@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth;
+use App\Http\Controllers\Auth\Dashboard;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
@@ -22,4 +23,16 @@ Route::middleware('auth')->group(function () {
     Route::post('confirm-password', [Auth\ConfirmablePasswordController::class, 'store']);
     Route::put('password', [Auth\PasswordController::class, 'update'])->name('password.update');
     Route::post('logout', [Auth\AuthenticatedSessionController::class, 'destroy'])->name('logout');
+});
+
+
+Route::middleware('guest:admin')->group(function () {
+    Route::controller(Dashboard\AdminAuthController::class)->prefix('admin')->as('admin.')->group(function () {
+        Route::get('/', 'create')->name('login');
+        Route::post('/', 'login')->name('login_post');
+    });
+});
+
+Route::middleware('check_guard')->prefix('admin')->as('admin.')->group(function () {
+    Route::post('logout', [Dashboard\AdminAuthController::class, 'destroy'])->name('logout');
 });

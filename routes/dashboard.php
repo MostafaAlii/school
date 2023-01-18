@@ -18,14 +18,8 @@ Route::group([
         'prefix' => LaravelLocalization::setLocale(),
 	    'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
     ], function(){
-    Route::prefix('admin')->as('admin.')->group(function () {
-        Route::get('dashboard', [Dashboard\DashboardController::class, 'index'])->name('dashboard');
+    Route::middleware('check_guard')->prefix('admin')->group(function () {
+        Route::get('dashboard', [Dashboard\DashboardController::class, 'index'])->name('admin.dashboard');
     });
-
-    // Employee routes ::
-    Route::prefix('employee')->middleware('auth:employee')->as('employee.')->group(function () {
-        Route::get('dashboard', [Auth\EmployeeAuthController::class, 'employee_dashboard'])->name('dashboard');
-    });
-
     require __DIR__.'/auth.php';
 });
